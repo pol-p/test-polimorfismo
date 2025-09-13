@@ -1,8 +1,20 @@
 package org.example;
 
+import java.util.Arrays;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
+    public static void print(Shape[] v){
+        System.out.println(Arrays.toString(v));
+    }
+    public static double sum(Shape[] v){
+        double res = 0;
+        for (Shape shape : v){
+            res += shape.area();
+        }
+        return res;
+    }
     public static void main(String[] args) {
         Shape[] v = new Shape[4];
 

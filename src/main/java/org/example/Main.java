@@ -1,6 +1,7 @@
 package org.example;
 
 import java.util.Arrays;
+import java.util.Collections;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -14,6 +15,9 @@ public class Main {
             res += shape.area();
         }
         return res;
+    }
+    public static void sort(Shape[] vector){
+        Arrays.sort(vector);
     }
     public static void main(String[] args) {
         Shape[] v = new Shape[4];

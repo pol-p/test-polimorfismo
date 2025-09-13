@@ -1,7 +1,7 @@
 package org.example;
 
 public class Rectangle extends Shape{
-    private double x;
+    double x;
     private double y;
 
     public Rectangle(double x, double y) {
